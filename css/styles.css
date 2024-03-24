@@ -424,55 +424,43 @@ ul {
 
 /* Footer */
 
-.footer-section {
+.footer {
   background-color: #2e2f42;
   padding: 100px 0;
 }
-
 .footer-container {
   display: flex;
   flex-direction: row;
   align-items: baseline;
 }
-
 .footer-company-info {
   margin-right: 120px;
 }
-
-.logo-footer {
+.footer-logo {
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
-  font-weight: 700;
   font-size: 18px;
+  font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
-  text-decoration: none;
-  margin-bottom: 16px;
   display: inline-block;
+  margin-bottom: 16px;
 }
-
-.logo-part-footer {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.5;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+.footer-logo-span {
   color: #f4f4fd;
-  text-decoration: none;
 }
-
-.footer-desc {
+.footer-text {
   color: #f4f4fd;
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
 }
-
+.footer-links-container {
+  margin-right: 80px;
+}
 .footer-social-media-title {
   font-size: 16px;
   font-weight: 500;
@@ -505,7 +493,6 @@ ul {
 .footer-media-links-link:focus {
   background-color: #31d0aa;
 }
-
 .footer-form-container {
   margin-right: 0px;
 }
