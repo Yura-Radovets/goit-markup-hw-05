@@ -487,15 +487,19 @@ ul {
 .social-link-icon {
   fill: #f4f4fd;
 }
+
 .footer-media-links-link:hover {
   background-color: #31d0aa;
 }
+
 .footer-media-links-link:focus {
   background-color: #31d0aa;
 }
+
 .footer-form-container {
   margin-right: 0px;
 }
+
 .footer-form-header {
   font-weight: 500;
   font-size: 16px;
@@ -504,12 +508,12 @@ ul {
   color: #fff;
   margin-bottom: 16px;
 }
+
 .footer-form {
   display: flex;
   gap: 24px;
 }
-.footer-form-label {
-}
+
 .footer-form-input {
   padding-left: 16px;
   border: 1px solid #fff;
@@ -525,9 +529,11 @@ ul {
   letter-spacing: 0.04em;
   color: #fff;
 }
+
 .footer-form-input::placeholder {
   color: #fff;
 }
+
 .footer-form-button {
   min-width: 165px;
   height: 40px;
@@ -587,6 +593,7 @@ ul {
   padding: 72px 24px 24px 24px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .button-close {
   position: absolute;
   top: 24px;
@@ -604,6 +611,7 @@ ul {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .modal-icon {
   fill: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -614,10 +622,12 @@ ul {
   background-color: #404bbf;
   border: none;
 }
+
 .button-close:hover > .modal-icon,
 .button-close:focus > .modal-icon {
   fill: #ffffff;
 }
+
 .modal-form-title {
   color: #2e2f42;
   font-weight: 500;
@@ -631,6 +641,7 @@ ul {
 .modal-form-input-container {
   margin-bottom: 8px;
 }
+
 .modal-form-label {
   display: block;
   font-size: 12px;
@@ -639,6 +650,7 @@ ul {
   color: #8e8f99;
   margin-bottom: 4px;
 }
+
 .modal-form-input {
   position: relative;
   border-radius: 4px;
